@@ -25,16 +25,23 @@ In this sample implementation, there is no client. So, every node including the 
 #### Code structure of the implementation
 ![](./pbft-consensus-architecture.png)
 
-### Working Screenshot
-![](./working-screenshot.png)
 
-## License
-Apache 2.0
+
+
 
 Go语言实现PBFT算法 下载demo后无法使用IDE运行，需要是用终端(命令行)工具输入指令运行
 
 需要进入到pbft文件夹下，使用命令go build main.go然后使用& ./main Apple会有一些输出， 然后新建一个终端再进入到pbft文件夹下，使用命令& ./main MS 然后新建一个终端再进入到pbft文件夹下，使用命令& ./main Google 然后新建一个终端再进入到pbft文件夹下，使用命令& ./main IBM，最后使用curl命令执行
 curl -H "Content-Type:application/json" -X POST -d '{"clientID":"ahnhwi","operation":"GetMyName","timestamp":859381532}' http://localhost:1111/req
+
+### Working Screenshot
+![](./working-screenshot.png)
+![](./pic.png)
+
+## License
+Apache 2.0
+
+
 
 
 
